@@ -20683,7 +20683,7 @@ const db = () => {
                     className: "flex items-center ml-3 select-none",
                     children: v.jsx("img", {
                         onClick: () => o("/"),
-                        src: "/logo/HQcolorlogo.svg",
+                        src: "assets/logo/HQcolorlogo.svg",
                         alt: "",
                         className: "size-[clamp(2.5rem,4vw,3.7rem)] cursor-pointer"
                     })
@@ -20699,19 +20699,19 @@ const db = () => {
                         })
                     }), v.jsx("li", {
                         children: v.jsx(Vn, {
-                            to: "/about",
+                            to: "about",
                             className: "hover:text-[#224766]",
                             children: "About"
                         })
                     }), v.jsx("li", {
                         children: v.jsx(Vn, {
-                            to: "/service",
+                            to: "service",
                             className: "hover:text-[#224766]",
                             children: "Service"
                         })
                     }), v.jsx("li", {
                         children: v.jsx(Vn, {
-                            to: "/contact",
+                            to: "contact",
                             className: "hover:text-[#224766]",
                             children: "Contact"
                         })
@@ -20719,7 +20719,7 @@ const db = () => {
                 }), v.jsx("div", {
                     className: "flex items-center max-sm:hidden",
                     children: v.jsx("button", {
-                        onClick: () => o("/contact"),
+                        onClick: () => o("contact"),
                         className: "tcss-btn bricolage-grotesque-font button",
                         children: v.jsx("span", {
                             className: "btn-text",
@@ -20760,25 +20760,25 @@ const db = () => {
                         })
                     }), v.jsx("li", {
                         children: v.jsx(Vn, {
-                            to: "/about",
+                            to: "about",
                             onClick: () => i(!1),
                             children: "About"
                         })
                     }), v.jsx("li", {
                         children: v.jsx(Vn, {
-                            to: "/service",
+                            to: "service",
                             onClick: () => i(!1),
                             children: "Service"
                         })
                     }), v.jsx("li", {
                         children: v.jsx(Vn, {
-                            to: "/contact",
+                            to: "contact",
                             onClick: () => i(!1),
                             children: "Contact"
                         })
                     }), v.jsx("li", {
                         children: v.jsx(Vn, {
-                            to: "/privacy-policy",
+                            to: "privacy-policy",
                             onClick: () => i(!1),
                             children: "Privacy Policy"
                         })
@@ -23473,7 +23473,7 @@ const as = ({ className: o = "" }) => {
                         children: v.jsx("button", {
                             ref: l,
                             id: "startprojectbtn",
-                            onClick: () => n("/contact"),
+                            onClick: () => n("contact"),
                             className: "tcss-btn bricolage-grotesque-font button",
                             children: v.jsx("span", {
                                 className: "btn-text",
@@ -23494,15 +23494,15 @@ const as = ({ className: o = "" }) => {
                             children: "Home"
                         }), v.jsx("li", {
                             className: "cursor-pointer",
-                            onClick: () => n("/about"),
+                            onClick: () => n("about"),
                             children: "About"
                         }), v.jsx("li", {
                             className: "cursor-pointer",
-                            onClick: () => n("/service"),
+                            onClick: () => n("service"),
                             children: "Service"
                         }), v.jsx("li", {
                             className: "cursor-pointer",
-                            onClick: () => n("/contact"),
+                            onClick: () => n("contact"),
                             children: "Contact"
                         })]
                     })]
@@ -23519,7 +23519,7 @@ const as = ({ className: o = "" }) => {
                                 children: [v.jsx("div", {
                                     className: "min-w-7 2xl:min-w-9",
                                     children: v.jsx("img", {
-                                        src: "/icons/messageicon.svg",
+                                        src: "icons/messageicon.svg",
                                         alt: "",
                                         className: "size-3.5 2xl:size-5"
                                     })
@@ -23534,7 +23534,7 @@ const as = ({ className: o = "" }) => {
                                 children: [v.jsx("div", {
                                     className: "min-w-7 2xl:min-w-9",
                                     children: v.jsx("img", {
-                                        src: "/icons/locationicon.svg",
+                                        src: "icons/locationicon.svg",
                                         alt: "",
                                         className: "size-3.5 2xl:size-5 mt-1"
                                     })
@@ -23547,7 +23547,7 @@ const as = ({ className: o = "" }) => {
                                 children: [v.jsx("div", {
                                     className: "min-w-7 2xl:min-w-9",
                                     children: v.jsx("img", {
-                                        src: "/icons/phone-icon.svg",
+                                        src: "icons/phone-icon.svg",
                                         alt: "",
                                         className: "size-3.5 2xl:size-5 mt-1"
                                     })
@@ -23570,7 +23570,7 @@ const as = ({ className: o = "" }) => {
                                     children: [v.jsx("div", {
                                         className: "min-w-7 2xl:min-w-9",
                                         children: v.jsx("img", {
-                                            src: "/icons/linkedinicon.svg",
+                                            src: "icons/linkedinicon.svg",
                                             alt: "LinkedIn",
                                             className: "size-3.5 2xl:size-5 mt-1 2xl:mt-1.5"
                                         })
@@ -23586,7 +23586,7 @@ const as = ({ className: o = "" }) => {
                                     children: [v.jsx("div", {
                                         className: "min-w-7 2xl:min-w-9",
                                         children: v.jsx("img", {
-                                            src: "/icons/instagramicon.svg",
+                                            src: "icons/instagramicon.svg",
                                             alt: "LinkedIn",
                                             className: "size-3.5 2xl:size-5 mt-1 2xl:mt-1.5"
                                         })
@@ -23745,7 +23745,7 @@ const as = ({ className: o = "" }) => {
                 }), v.jsx("div", {
                     className: "max-sm:hidden",
                     children: v.jsx(Vn, {
-                        to: "/privacy-policy",
+                        to: "privacy-policy",
                         className: "hover:underline",
                         children: "Privacy Policy"
                     })
@@ -24204,23 +24204,23 @@ const Qb = () => {
     const m = [{
         id: 1,
         category: "focus",
-        image: "/images/Home/abtcard1.avif"
+        image: "images/Home/abtcard1.avif"
     }, {
         id: 2,
         category: "support",
-        image: "/images/Home/abtcard2.avif"
+        image: "images/Home/abtcard2.avif"
     }, {
         id: 3,
         category: "product",
-        image: "/images/Home/abtcard3.avif"
+        image: "images/Home/abtcard3.avif"
     }, {
         id: 4,
         category: "scale",
-        image: "/images/Home/abtcard4.avif"
+        image: "images/Home/abtcard4.avif"
     }, {
         id: 5,
         category: "focus",
-        image: "/images/Home/abtcard5.avif"
+        image: "images/Home/abtcard5.avif"
     }]
         , x = [{
             id: "uiux",
@@ -24231,22 +24231,22 @@ const Qb = () => {
             id: "web",
             title: "Web Development",
             description: "We transform designs into fast, reliable, maintainable websites and web apps. As a modern website development company, using modern frameworks and clean architecture, we deliver smooth interactions and scalable backend logic.",
-            image: "/images/Home/web_development1.avif"
+            image: "images/Home/web_development1.avif"
         }, {
             id: "deploy",
             title: "Launch & Deploy",
             description: "We prepare your product for the real world — secure hosting, optimized performance, and automated deployment pipelines so your launch is stable, repeatable, and ready for growth.",
-            image: "/images/Home/deployment1.avif"
+            image: "images/Home/deployment1.avif"
         }, {
             id: "opt",
             title: "Optimization",
             description: "We stay with your product after launch — iterating on features, refining UX, improving load times, and ensuring your system keeps pace with user needs.",
-            image: "/images/Home/optimization1.avif"
+            image: "images/Home/optimization1.avif"
         }, {
             id: "hw",
             title: "Hardware Support",
             description: "For teams that need hands-on help, we provide honest hardware support — laptop and mobile repairs, system setup, and quick diagnostics to keep workspaces running smoothly.",
-            image: "/images/Home/hardware_support.avif"
+            image: "images/Home/hardware_support.avif"
         }];
     return v.jsxs(v.Fragment, {
         children: [v.jsx(bc, {
@@ -24310,7 +24310,7 @@ const Qb = () => {
                                 children: v.jsx("button", {
                                     ref: r,
                                     id: "startprojectbtn",
-                                    onClick: () => o("/contact"),
+                                    onClick: () => o("contact"),
                                     className: "tcss-btn bricolage-grotesque-font button",
                                     children: v.jsx("span", {
                                         className: "btn-text",
@@ -24327,7 +24327,7 @@ const Qb = () => {
                                     ref: y => c.current[0] = y,
                                     className: "w-40 max-sm:w-full max-md:w-110 md:w-56 lg:w-[clamp(15rem,19vw,24rem)] rounded-2xl shadow-lg",
                                     children: v.jsx("img", {
-                                        src: "/images/Home/solve.avif",
+                                        src: "images/Home/solve.avif",
                                         alt: "",
                                         className: "w-full h-full rounded-2xl object-cover select-none"
                                     })
@@ -24335,7 +24335,7 @@ const Qb = () => {
                                     ref: y => c.current[1] = y,
                                     className: "w-40 max-sm:w-full max-md:w-110 md:w-56 lg:w-[clamp(15rem,19vw,24rem)] rounded-2xl shadow-lg",
                                     children: v.jsx("img", {
-                                        src: "/images/Home/growth.avif",
+                                        src: "images/Home/growth.avif",
                                         alt: "",
                                         className: "w-full h-full rounded-2xl object-cover select-none"
                                     })
@@ -24343,7 +24343,7 @@ const Qb = () => {
                                     ref: y => c.current[2] = y,
                                     className: "w-40 max-sm:w-full max-md:w-110 md:w-56 lg:w-[clamp(15rem,19vw,24rem)] rounded-2xl shadow-lg",
                                     children: v.jsx("img", {
-                                        src: "/images/Home/startups.avif",
+                                        src: "images/Home/startups.avif",
                                         alt: "",
                                         className: "w-full h-full rounded-2xl object-cover select-none"
                                     })
@@ -24367,7 +24367,7 @@ const Qb = () => {
                         }), v.jsx("div", {
                             className: "flex items-center mt-8",
                             children: v.jsx("button", {
-                                onClick: () => o("/about"),
+                                onClick: () => o("about"),
                                 className: "tcss-btn bricolage-grotesque-font button",
                                 children: v.jsx("span", {
                                     className: "btn-text",
@@ -24417,7 +24417,7 @@ const Qb = () => {
                         }), v.jsx("div", {
                             className: "flex items-center mt-8",
                             children: v.jsx("button", {
-                                onClick: () => o("/service"),
+                                onClick: () => o("service"),
                                 className: "tcss-btn bricolage-grotesque-font button",
                                 children: v.jsx("span", {
                                     className: "btn-text",
@@ -24512,49 +24512,49 @@ const Qb = () => {
                             className: "flex-1 relative overflow-hidden rounded-2xl max-lg:rounded-xl aspect-[16/8] max-lg:mb-6 select-none",
                             children: [v.jsx("img", {
                                 id: "img1",
-                                src: "/images/Home/e-commerce.avif",
+                                src: "images/Home/e-commerce.avif",
                                 loading: "lazy",
                                 decoding: "async",
                                 alt: "about",
                                 className: "w-full h-full object-cover"
                             }), v.jsx("img", {
                                 id: "img2",
-                                src: "/images/Home/realestate.avif",
+                                src: "images/Home/realestate.avif",
                                 loading: "lazy",
                                 decoding: "async",
                                 alt: "about",
                                 className: "w-full h-full object-cover absolute top-0 left-0"
                             }), v.jsx("img", {
                                 id: "img3",
-                                src: "/images/Home/fashion.avif",
+                                src: "images/Home/fashion.avif",
                                 loading: "lazy",
                                 decoding: "async",
                                 alt: "about",
                                 className: "w-full h-full object-cover absolute top-0 left-0"
                             }), v.jsx("img", {
                                 id: "img4",
-                                src: "/images/Home/technology.avif",
+                                src: "images/Home/technology.avif",
                                 loading: "lazy",
                                 decoding: "async",
                                 alt: "about",
                                 className: "w-full h-full object-cover absolute top-0 left-0"
                             }), v.jsx("img", {
                                 id: "img5",
-                                src: "/images/Home/automotive.avif",
+                                src: "images/Home/automotive.avif",
                                 loading: "lazy",
                                 decoding: "async",
                                 alt: "about",
                                 className: "w-full h-full object-cover absolute top-0 left-0"
                             }), v.jsx("img", {
                                 id: "img6",
-                                src: "/images/Home/tourism.avif",
+                                src: "images/Home/tourism.avif",
                                 loading: "lazy",
                                 decoding: "async",
                                 alt: "about",
                                 className: "w-full h-full object-cover absolute top-0 left-0"
                             }), v.jsx("img", {
                                 id: "img7",
-                                src: "/images/Home/sports.avif",
+                                src: "images/Home/sports.avif",
                                 loading: "lazy",
                                 decoding: "async",
                                 alt: "about",
@@ -24586,7 +24586,7 @@ const Qb = () => {
                     }), v.jsx("div", {
                         className: "flex items-center mt-10",
                         children: v.jsx("button", {
-                            onClick: () => o("/contact"),
+                            onClick: () => o("contact"),
                             className: "tcss-btn bricolage-grotesque-font button",
                             children: v.jsx("span", {
                                 className: "btn-text",
@@ -24605,14 +24605,14 @@ const Qb = () => {
                                 className: "clash-grotesk font-extrabold text-white text-[clamp(4.5rem,8vw,9rem)] uppercase whitespace-nowrap",
                                 children: "Let's work together"
                             }), v.jsx("img", {
-                                src: "/images/Home/lets_work_together.svg",
+                                src: "images/Home/lets_work_together.svg",
                                 alt: "",
                                 className: "mx-5 max-h-24 max-md:max-h-18 2xl:min-h-36 2xl:mx-8"
                             }), v.jsx("p", {
                                 className: "clash-grotesk font-extrabold text-white text-[clamp(4.5rem,8vw,9rem)] uppercase whitespace-nowrap",
                                 children: "Let's work together"
                             }), v.jsx("img", {
-                                src: "/images/Home/lets_work_together.svg",
+                                src: "images/Home/lets_work_together.svg",
                                 alt: "",
                                 className: "mx-5 max-h-24 max-md:max-h-18 2xl:min-h-36 2xl:mx-8"
                             })]
@@ -24626,14 +24626,14 @@ const Qb = () => {
                                 className: "clash-grotesk font-extrabold text-white text-[clamp(4.5rem,8vw,9rem)] uppercase whitespace-nowrap",
                                 children: "Let's work together"
                             }), v.jsx("img", {
-                                src: "/images/Home/lets_work_together.svg",
+                                src: "images/Home/lets_work_together.svg",
                                 alt: "",
                                 className: "mx-5 max-h-24 max-md:max-h-16 2xl:min-h-36 2xl:mx-8"
                             }), v.jsx("p", {
                                 className: "clash-grotesk font-extrabold text-white text-[clamp(4.5rem,8vw,9rem)] uppercase whitespace-nowrap",
                                 children: "Let's work together"
                             }), v.jsx("img", {
-                                src: "/images/Home/lets_work_together.svg",
+                                src: "images/Home/lets_work_together.svg",
                                 alt: "",
                                 className: "mx-5 max-h-24 max-md:max-h-16 2xl:min-h-36 2xl:mx-8"
                             })]
@@ -24812,7 +24812,7 @@ leading-[clamp(3.5rem,7.5vw,7rem)]
       max-md:[transform:rotateY(0deg)_translateZ(134px)]
     `,
                                 children: v.jsx("img", {
-                                    src: "/images/About/think.avif",
+                                    src: "images/About/think.avif",
                                     className: "w-full h-full rounded-2xl object-cover",
                                     alt: "think"
                                 })
@@ -24828,7 +24828,7 @@ leading-[clamp(3.5rem,7.5vw,7rem)]
       max-md:[transform:rotateY(72deg)_translateZ(144px)_rotateY(0deg)]
     `,
                                 children: v.jsx("img", {
-                                    src: "/images/About/design.avif",
+                                    src: "images/About/design.avif",
                                     className: "w-full h-full rounded-2xl object-cover",
                                     alt: "design"
                                 })
@@ -24843,7 +24843,7 @@ leading-[clamp(3.5rem,7.5vw,7rem)]
       max-md:[transform:rotateY(144deg)_translateZ(134px)_rotateY(0deg)]
     `,
                                 children: v.jsx("img", {
-                                    src: "/images/About/build.avif",
+                                    src: "images/About/build.avif",
                                     className: "w-full h-full rounded-2xl object-cover",
                                     alt: "build"
                                 })
@@ -24858,7 +24858,7 @@ leading-[clamp(3.5rem,7.5vw,7rem)]
       max-md:[transform:rotateY(216deg)_translateZ(134px)_rotateY(0deg)]
     `,
                                 children: v.jsx("img", {
-                                    src: "/images/About/fix.avif",
+                                    src: "images/About/fix.avif",
                                     className: "w-full h-full rounded-2xl object-cover",
                                     alt: "fix"
                                 })
@@ -24873,7 +24873,7 @@ leading-[clamp(3.5rem,7.5vw,7rem)]
       max-md:[transform:rotateY(288deg)_translateZ(134px)_rotateY(0deg)]
     `,
                                 children: v.jsx("img", {
-                                    src: "/images/About/grow.avif",
+                                    src: "images/About/grow.avif",
                                     className: "w-full h-full rounded-2xl object-cover",
                                     alt: "grow"
                                 })
@@ -24885,7 +24885,7 @@ leading-[clamp(3.5rem,7.5vw,7rem)]
                             ref: r => n.current[0] = r,
                             className: "w-40 sm:size-48 md:size-56 lg:size-[clamp(15rem,19vw,24rem)] rounded-2xl shadow-lg rotate-8",
                             children: [" ", v.jsx("img", {
-                                src: "/images/About/think.avif",
+                                src: "images/About/think.avif",
                                 alt: "think",
                                 className: "w-full h-full rounded-2xl object-cover"
                             }), " "]
@@ -24893,7 +24893,7 @@ leading-[clamp(3.5rem,7.5vw,7rem)]
                             ref: r => n.current[1] = r,
                             className: "w-40 sm:size-48 md:size-56 lg:size-[clamp(15rem,19vw,24rem)] rounded-2xl shadow-lg -rotate-6",
                             children: [" ", v.jsx("img", {
-                                src: "/images/About/design.avif",
+                                src: "images/About/design.avif",
                                 alt: "design",
                                 className: "w-full h-full rounded-2xl object-cover"
                             }), " "]
@@ -24901,7 +24901,7 @@ leading-[clamp(3.5rem,7.5vw,7rem)]
                             ref: r => n.current[2] = r,
                             className: "w-40 sm:size-48 md:size-56 lg:size-[clamp(15rem,19vw,24rem)] rounded-2xl shadow-lg rotate-4",
                             children: [" ", v.jsx("img", {
-                                src: "/images/About/build.avif",
+                                src: "images/About/build.avif",
                                 alt: "build",
                                 className: "w-full h-full rounded-2xl object-cover"
                             }), " "]
@@ -24909,7 +24909,7 @@ leading-[clamp(3.5rem,7.5vw,7rem)]
                             ref: r => n.current[3] = r,
                             className: "w-40 sm:size-48 md:size-56 lg:size-[clamp(15rem,19vw,24rem)] rounded-2xl shadow-lg -rotate-7",
                             children: [" ", v.jsx("img", {
-                                src: "/images/About/fix.avif",
+                                src: "images/About/fix.avif",
                                 alt: "fix",
                                 className: "w-full h-full rounded-2xl object-cover"
                             }), " "]
@@ -24917,7 +24917,7 @@ leading-[clamp(3.5rem,7.5vw,7rem)]
                             ref: r => n.current[4] = r,
                             className: "w-40 sm:size-48 md:size-56 lg:size-[clamp(15rem,19vw,24rem)] rounded-2xl shadow-lg rotate-2",
                             children: [" ", v.jsx("img", {
-                                src: "/images/About/grow.avif",
+                                src: "images/About/grow.avif",
                                 alt: "grow",
                                 className: "w-full h-full rounded-2xl object-cover"
                             }), " "]
@@ -24969,37 +24969,37 @@ text-[clamp(1rem,1.4vw,1.6rem)] max-md:max-w-full`,
                 }), v.jsxs("div", {
                     className: "max-md:hidden grid grid-cols-18 grid-rows-2 gap-4 2xl:gap-6 mt-12 select-none",
                     children: [v.jsx("img", {
-                        src: "/images/About/abtcard1.avif",
+                        src: "images/About/abtcard1.avif",
                         fetchPriority: "high",
                         decoding: "async",
                         alt: "",
                         className: "col-span-6 rounded-2xl"
                     }), v.jsx("img", {
-                        src: "/images/About/abtcard2.avif",
+                        src: "images/About/abtcard2.avif",
                         fetchPriority: "high",
                         decoding: "async",
                         alt: "",
                         className: "col-span-6 rounded-2xl"
                     }), v.jsx("img", {
-                        src: "/images/About/abtcard3.avif",
+                        src: "images/About/abtcard3.avif",
                         fetchPriority: "high",
                         decoding: "async",
                         alt: "",
                         className: "col-span-6 rounded-2xl"
                     }), v.jsx("img", {
-                        src: "/images/About/abtcard4.avif",
+                        src: "images/About/abtcard4.avif",
                         fetchPriority: "high",
                         decoding: "async",
                         alt: "",
                         className: "col-span-5 rounded-2xl"
                     }), v.jsx("img", {
-                        src: "/images/About/abtcard5.avif",
+                        src: "images/About/abtcard5.avif",
                         fetchPriority: "high",
                         decoding: "async",
                         alt: "",
                         className: "col-span-6 rounded-2xl"
                     }), v.jsx("img", {
-                        src: "/images/About/abtcard6.avif",
+                        src: "images/About/abtcard6.avif",
                         fetchPriority: "high",
                         decoding: "async",
                         alt: "",
@@ -25008,37 +25008,37 @@ text-[clamp(1rem,1.4vw,1.6rem)] max-md:max-w-full`,
                 }), v.jsxs("div", {
                     className: "md:hidden grid grid-cols-2 max-sm:grid-cols-1 gap-4 mt-12",
                     children: [v.jsx("img", {
-                        src: "/images/About/Card-1.avif",
+                        src: "images/About/Card-1.avif",
                         fetchPriority: "high",
                         decoding: "async",
                         alt: "",
                         className: "rounded-2xl"
                     }), v.jsx("img", {
-                        src: "/images/About/Card-2.avif",
+                        src: "images/About/Card-2.avif",
                         fetchPriority: "high",
                         decoding: "async",
                         alt: "",
                         className: "rounded-2xl"
                     }), v.jsx("img", {
-                        src: "/images/About/Card-3.avif",
+                        src: "images/About/Card-3.avif",
                         fetchPriority: "high",
                         decoding: "async",
                         alt: "",
                         className: "rounded-2xl"
                     }), v.jsx("img", {
-                        src: "/images/About/Card-4.avif",
+                        src: "images/About/Card-4.avif",
                         fetchPriority: "high",
                         decoding: "async",
                         alt: "",
                         className: "rounded-2xl"
                     }), v.jsx("img", {
-                        src: "/images/About/Card-5.avif",
+                        src: "images/About/Card-5.avif",
                         fetchPriority: "high",
                         decoding: "async",
                         alt: "",
                         className: "rounded-2xl"
                     }), v.jsx("img", {
-                        src: "/images/About/Card-6.avif",
+                        src: "images/About/Card-6.avif",
                         fetchPriority: "high",
                         decoding: "async",
                         alt: "",
@@ -25062,7 +25062,7 @@ text-[clamp(1rem,1.4vw,1.6rem)] max-md:max-w-full`,
                 }), v.jsx("div", {
                     className: "flex items-center mt-10 max-md:mt-6 max-sm:mt-4",
                     children: v.jsx("button", {
-                        onClick: () => o("/contact"),
+                        onClick: () => o("contact"),
                         className: "tcss-btn bricolage-grotesque-font button",
                         children: v.jsx("span", {
                             className: "btn-text",
@@ -25153,7 +25153,7 @@ function A3({ job: o }) {
                 "aria-label": `Open ${l} details`,
                 className: "w-[clamp(2.25rem,3.7vw,3.5rem)] h-[clamp(2.25rem,3.7vw,3.5rem)] flex items-center justify-center rounded-full bg-[#859DCE] hover:bg-[#3b82f6]/20 transition-shadow cursor-pointer",
                 children: v.jsx("img", {
-                    src: "/icons/top-right-arrow.svg",
+                    src: "icons/top-right-arrow.svg",
                     alt: "",
                     className: "w-[clamp(0.9rem,1.4vw,1.4rem)]"
                 })
@@ -25327,19 +25327,19 @@ const $b = () => {
                     children: [v.jsxs("div", {
                         className: "flex absolute mt-12 max-xl:mt-6 max-lg:mt-0 cards max-md:hidden select-none",
                         children: [v.jsx("img", {
-                            src: "/images/Home/solve.avif",
+                            src: "images/Home/solve.avif",
                             fetchpriority: "high",
                             decoding: "async",
                             alt: "",
                             className: "card size-[clamp(7rem,14vw,21.25rem)] border-5 border-white shadow-lg rounded-2xl -rotate-21 mt-10 z-20"
                         }), v.jsx("img", {
-                            src: "/images/Home/growth.avif",
+                            src: "images/Home/growth.avif",
                             fetchpriority: "high",
                             decoding: "async",
                             alt: "",
                             className: "card size-[clamp(7rem,14vw,21.25rem)] border-5 border-white shadow-lg rounded-2xl z-10 rotate-6"
                         }), v.jsx("img", {
-                            src: "/images/Home/startups.avif",
+                            src: "images/Home/startups.avif",
                             fetchpriority: "high",
                             decoding: "async",
                             alt: "",
@@ -25447,7 +25447,7 @@ text-[clamp(1rem,1.5vw,1.6rem)] text-left mt-4`,
                             }), v.jsx("div", {
                                 className: "mt-4",
                                 children: v.jsx("button", {
-                                    onClick: () => o("/contact"),
+                                    onClick: () => o("contact"),
                                     className: "cursor-pointer bricolage-grotesque-font text-black bg-[#859DCE] rounded-full font-medium text-sm md:text-[clamp(1rem,1.1vw,2rem)] px-6 py-3 w-full",
                                     children: "Hire now"
                                 })
@@ -25614,7 +25614,7 @@ function Ib() {
                     className: "text-[clamp(0.6rem,0.9vw,1rem)] text-gray-500 mt-3",
                     children: ["By submitting this form I accept the ", v.jsx("u", {
                         children: v.jsx(Vn, {
-                            to: "/privacy-policy",
+                            to: "privacy-policy",
                             className: "hover:underline",
                             children: "Privacy Policy"
                         })
@@ -25809,7 +25809,7 @@ min-h-[clamp(2.5rem,3vw,3rem)]
     ${n === c ? "rotate-180" : "rotate-0"}
   `,
                                 children: v.jsx("img", {
-                                    src: "/icons/top-rightarrow.svg",
+                                    src: "icons/top-rightarrow.svg",
                                     alt: "",
                                     className: "size-[clamp(1rem,1vw,1.25rem)] select-none"
                                 })
@@ -26503,31 +26503,31 @@ const hw = () => {
     const i = [{
         id: 1,
         category: "meeting",
-        image: "/images/Service/process1.avif"
+        image: "images/Service/process1.avif"
     }, {
         id: 2,
         category: "support",
-        image: "/images/Service/process2.avif"
+        image: "images/Service/process2.avif"
     }, {
         id: 3,
         category: "product",
-        image: "/images/Service/process3.avif"
+        image: "images/Service/process3.avif"
     }, {
         id: 4,
         category: "scale",
-        image: "/images/Service/process4.avif"
+        image: "images/Service/process4.avif"
     }, {
         id: 5,
         category: "focus",
-        image: "/images/Service/process5.avif"
+        image: "images/Service/process5.avif"
     }, {
         id: 6,
         category: "focus",
-        image: "/images/Service/process6.avif"
+        image: "images/Service/process6.avif"
     }, {
         id: 7,
         category: "focus",
-        image: "/images/Service/process7.avif"
+        image: "images/Service/process7.avif"
     }];
     return Y.useEffect(() => {
         const r = me.utils.toArray(".card")
@@ -26682,15 +26682,15 @@ const hw = () => {
                         children: [v.jsxs("div", {
                             className: "flex absolute mt-12 cards max-md:hidden select-none",
                             children: [v.jsx("img", {
-                                src: "/images/Home/solve.avif",
+                                src: "images/Home/solve.avif",
                                 alt: "solve",
                                 className: "card size-[clamp(7rem,14vw,21.25rem)] border-5 border-white shadow-lg rounded-2xl -rotate-21 mt-10 z-20"
                             }), v.jsx("img", {
-                                src: "/images/Home/growth.avif",
+                                src: "images/Home/growth.avif",
                                 alt: "growth",
                                 className: "card size-[clamp(7rem,14vw,21.25rem)] border-5 border-white shadow-lg rounded-2xl z-10 rotate-6"
                             }), v.jsx("img", {
-                                src: "/images/Home/startups.avif",
+                                src: "images/Home/startups.avif",
                                 alt: "startups",
                                 className: "card size-[clamp(7rem,14vw,21.25rem)] border-5 border-white shadow-lg rounded-2xl rotate-20 mt-12 -ml-2"
                             })]
@@ -27447,7 +27447,7 @@ function bw({ jobId: o }) {
                 children: v.jsxs("div", {
                     className: "bg-[#EFF6E0] rounded-2xl p-6 max-lg:p-4",
                     children: [v.jsx("img", {
-                        src: "/images/Job/linkedin_page.avif",
+                        src: "images/Job/linkedin_page.avif",
                         fetchpriority: "high",
                         decoding: "async",
                         alt: "",
@@ -27532,7 +27532,7 @@ function bw({ jobId: o }) {
                         }), v.jsxs("p", {
                             className: "text-xs text-gray-500 2xl:text-sm",
                             children: ["By submitting this form I accept the", " ", v.jsx(Vn, {
-                                to: "/privacy-policy",
+                                to: "privacy-policy",
                                 className: "hover:underline",
                                 children: "Privacy Policy"
                             }), " ", "of this site."]
@@ -27696,7 +27696,7 @@ function Cw() {
                                     children: b.map((C, w) => v.jsxs("li", {
                                         className: "flex gap-3 items-start",
                                         children: [v.jsx("img", {
-                                            src: "/icons/tick-icon.svg",
+                                            src: "icons/tick-icon.svg",
                                             alt: "",
                                             className: "size-[clamp(1rem,2vw,1.25rem)] mt-1 shrink-0"
                                         }), v.jsx("span", {
@@ -27718,7 +27718,7 @@ function Cw() {
                                     children: g.map((C, w) => v.jsxs("li", {
                                         className: "flex gap-3 items-start",
                                         children: [v.jsx("img", {
-                                            src: "/icons/tick-icon.svg",
+                                            src: "icons/tick-icon.svg",
                                             alt: "",
                                             className: "size-[clamp(1rem,2vw,1.25rem)] mt-1 shrink-0"
                                         }), v.jsx("span", {
@@ -27800,7 +27800,7 @@ const U3 = () => !!localStorage.getItem("adminToken")
                     path: "/",
                     element: v.jsx(Qb, {})
                 }), v.jsx(gl, {
-                    path: "/about",
+                    path: "about",
                     element: v.jsx(Kb, {})
                 }), v.jsx(gl, {
                     path: "/career",
@@ -27809,13 +27809,13 @@ const U3 = () => !!localStorage.getItem("adminToken")
                     path: "/career/:id",
                     element: v.jsx(Cw, {})
                 }), " ", v.jsx(gl, {
-                    path: "/contact",
+                    path: "contact",
                     element: v.jsx(ew, {})
                 }), v.jsx(gl, {
-                    path: "/service",
+                    path: "service",
                     element: v.jsx(hw, {})
                 }), v.jsx(gl, {
-                    path: "/privacy-policy",
+                    path: "privacy-policy",
                     element: v.jsx(mw, {})
                 }), v.jsx(gl, {
                     path: "/admin/login",
