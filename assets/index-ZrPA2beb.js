@@ -20693,25 +20693,25 @@ const db = () => {
                    sm:text-[clamp(0.7rem,1.3vw,1rem)] lg:text-[clamp(0.9rem,1.1vw,1.3rem)]`,
                     children: [v.jsx("li", {
                         children: v.jsx(Vn, {
-                            to: "/",
+                            to: "nexo-media-v2/",
                             className: "hover:text-[#224766]",
                             children: "Home"
                         })
                     }), v.jsx("li", {
                         children: v.jsx(Vn, {
-                            to: "about",
+                            to: "nexo-media-v2/about",
                             className: "hover:text-[#224766]",
                             children: "About"
                         })
                     }), v.jsx("li", {
                         children: v.jsx(Vn, {
-                            to: "service",
+                            to: "nexo-media-v2/service",
                             className: "hover:text-[#224766]",
                             children: "Service"
                         })
                     }), v.jsx("li", {
                         children: v.jsx(Vn, {
-                            to: "contact",
+                            to: "nexo-media-v2/contact",
                             className: "hover:text-[#224766]",
                             children: "Contact"
                         })
