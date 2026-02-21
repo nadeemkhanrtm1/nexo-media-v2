@@ -25511,13 +25511,13 @@ function Ib() {
             // })).ok)
             //     throw new Error("Failed");
             alert("Message sent successfully!");
-                // i({
-                //     name: "",
-                //     email: "",
-                //     phone: "",
-                //     service: "",
-                //     message: ""
-                // })
+            // i({
+            //     name: "",
+            //     email: "",
+            //     phone: "",
+            //     service: "",
+            //     message: ""
+            // })
         } catch (p) {
             console.error(p),
                 alert("Failed to send message")
@@ -27794,36 +27794,36 @@ const U3 = () => !!localStorage.getItem("adminToken")
         return v.jsxs(v.Fragment, {
             children: [!n && v.jsx(db, {}), v.jsx(Sw, {}), v.jsxs(Cv, {
                 children: [v.jsx(gl, {
-                    path: "/search",
+                    path: "search",
                     element: v.jsx(Tw, {})
                 }), v.jsx(gl, {
-                    path: "/",
+                    path: "/nexo-media-v2/",
                     element: v.jsx(Qb, {})
                 }), v.jsx(gl, {
-                    path: "about",
+                    path: "/nexo-media-v2/about",
                     element: v.jsx(Kb, {})
                 }), v.jsx(gl, {
-                    path: "/career",
+                    path: "/nexo-media-v2/career",
                     element: v.jsx($b, {})
                 }), " ", v.jsx(gl, {
-                    path: "/career/:id",
+                    path: "/nexo-media-v2/career/:id",
                     element: v.jsx(Cw, {})
                 }), " ", v.jsx(gl, {
-                    path: "contact",
+                    path: "/nexo-media-v2/contact",
                     element: v.jsx(ew, {})
                 }), v.jsx(gl, {
-                    path: "service",
+                    path: "/nexo-media-v2/service",
                     element: v.jsx(hw, {})
                 }), v.jsx(gl, {
-                    path: "privacy-policy",
+                    path: "/nexo-media-v2/privacy-policy",
                     element: v.jsx(mw, {})
                 }), v.jsx(gl, {
-                    path: "/admin/login",
+                    path: "/nexo-media-v2/admin/login",
                     element: U3() ? v.jsx(c6, {
-                        to: "/admin/dashboard"
+                        to: "/nexo-media-v2/admin/dashboard"
                     }) : v.jsx(pw, {})
                 }), v.jsx(gl, {
-                    path: "/admin/dashboard",
+                    path: "/nexo-media-v2/admin/dashboard",
                     element: U3() ? v.jsx(_w, {}) : v.jsx(c6, {
                         to: "/admin/login"
                     })
